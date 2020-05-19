@@ -3,11 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yolomy</title>
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css" type="text/css" media="all">
-    <!--link rel="stylesheet" href="css/mine.css" type="text/css" media="all"-->
-</head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/mine.css" type="text/css" media="all">
+    </head>
+
 <body>
-    <div class="container-fluid"style="background-image: url(images/backgrounds/hero.jpg);">
+    <section id="header">
+      <div class="container">
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -28,13 +30,94 @@
         </nav>
         <div class="row" >        
            <div class="col-md-12" >
-        <div class="jumbotron" class="down">
-          <h1>Our Clothing, Your Comfort</h1>
+        <div class="jumbotron">
+            <h1>Our Clothing, Your Comfort</h1>
           <p>We understand that you need to look good and feel great. <br> It all starts with what you are wearing.</p>
+          <div>
+            <a class="arrowb" href="#"><img src="images/mouse_click.png"></a>
         </div>
-        <div>
-            <img src="images/mouse_click.png" alt="Go to top!">
+        </div>        
+      </div> 
+    </section>
+
+    <section id="people">
+        <div class="container">
+            <div class="row">
+                <div class="large-6 columns">
+                    <input id="checkbox1" type="checkbox">
+                    <label for="checkbox1">Men</label>
+                    <input id="checkbox2" type="checkbox">
+                    <label for="checkbox2">Women</label>
+                    <input id="checkbox3" type="checkbox">
+                    <label for="checkbox2">Children</label>
+                </div>
+
+                <div class="large-6 columns">
+                    <div class="button-group ">
+                        <a class="button prod">See All Products</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>  
+    </section>
+
+    <section class="men-products">
+        <div class="container">
+        <div class="row small-up-3 medium-up-3 large-up-3">
+            <div class="column" style="
+    border: 1px solid;
+    width: 30%;
+    height: auto;
+    margin-right: 5%;
+    padding-top: 6%;
+">
+                <img src="css/assets/products/backpack.png" class="thumbnail" alt="" style="margin-left: auto;
+    margin-right: auto;
+    display: block;">
+                <h4>tshirt <span style="float:right;">$500</span></h4>
+            </div>
+            <div class="column" style="
+    border: 1px solid;
+    width: 30%;
+    margin-right: 5%;
+    padding-top: 0.5%;
+    height: auto;
+">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li>
+                        <a href="#"><h5>size</h5></a>
+                        <ul class="menu">
+                            <li><a href="#">17</a></li>
+                            <li><a href="#">18</a></li>
+                            <li><a href="#">19</a></li>
+                            <!-- ... -->
+                        </ul>
+                    </li>
+                </ul>
+
+                <img src="css/assets/products/giacket.png" class="thumbnail" alt="" style="
+   margin-left: auto;
+    margin-right: auto;
+    display: block;
+">
+
+                <h4>tshirt <span style="float:right;">$500</span></h4>
+            </div>
+            <div class="column" style="
+    border: 1px solid;
+    width: 30%;
+    padding-top: 4%;
+    height: auto;
+">
+                <img src="css/assets/products/pants.png" class="thumbnail" alt="" style="
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+">
+                <h4>tshirt <span style="float:right;">$500</span></h4>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

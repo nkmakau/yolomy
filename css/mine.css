@@ -1,3 +1,16 @@
-.down{
-    align-items: center;
+#header{
+    background-image: url('../images/backgrounds/hero.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+#people{
+    background-color: burlywood;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.button-group{
+    text-align: right;
 }
